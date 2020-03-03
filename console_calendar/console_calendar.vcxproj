@@ -142,6 +142,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="calendar.c" />
+    <ClCompile Include="cal_func.c" />
+    <ClCompile Include="fileIO.c" />
+    <ClCompile Include="interface.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="simple_func.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ALL.h" />
+    <ClInclude Include="DATA.h" />
+    <ClInclude Include="FUNCTION.h" />
+    <ClInclude Include="LIB.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
